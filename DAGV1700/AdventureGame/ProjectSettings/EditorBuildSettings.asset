@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ClassExamples/Unit 9 UI/Level1.unity
     guid: 5e6acbb99e42144d885b817fb6bb9264
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 99ae598fc824fc04a9dd95f87c3b3d7b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainScene Sec 001.unity
     guid: 2518def3571292d43b18a1b09175bd81
   m_configObjects:
