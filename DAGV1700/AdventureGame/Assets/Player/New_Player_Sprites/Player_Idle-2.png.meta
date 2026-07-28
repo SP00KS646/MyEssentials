@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 7025631874a536647b07e6be2ef4b23e
+guid: 1d959c21b1ec69d48bb5454df5fb1ddc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7580540467239706310
-    second: PlayerV_Jump_0
+      213: -5826731644568237460
+    second: Player_Idle-2_0
+  - first:
+      213: 2085790799482139117
+    second: Player_Idle-2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -73,9 +76,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +103,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerV_Jump_0
+      name: Player_Idle-2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 51
-        height: 59
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cedb4b346d733960800000000000000
-      internalID: 7580540467239706310
+      spriteID: c6a8bfbc07a432fa0800000000000000
+      internalID: -5826731644568237460
       vertices: []
       indices: 
       edges: []
@@ -125,7 +128,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 179703c7628687843a20b0a03eb228d9
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +138,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerV_Jump_0: 7580540467239706310
+      Player_Idle-2_0: -5826731644568237460
+      Player_Idle-2_1: 2085790799482139117
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

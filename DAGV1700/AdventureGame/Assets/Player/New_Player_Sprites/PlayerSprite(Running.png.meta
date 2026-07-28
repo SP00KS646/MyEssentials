@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 585554b45b204014ab496d38f0d01e8d
+guid: 83ddf2c341cb0064ca47d3d81ad69ce7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2561447227528897249
-    second: PlayerV_0
+      213: 1442715594118035075
+    second: PlayerSprite(Running_0
+  - first:
+      213: 540808295908896375
+    second: PlayerSprite(Running_1
+  - first:
+      213: 3737951657810390374
+    second: PlayerSprite(Running_2
+  - first:
+      213: -4543752209869851085
+    second: PlayerSprite(Running_3
+  - first:
+      213: 7491550246863949336
+    second: PlayerSprite(Running_4
+  - first:
+      213: -5903166981624916338
+    second: PlayerSprite(Running_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -73,9 +88,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +115,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerV_0
+      name: PlayerSprite(Running_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 0
-        width: 47
-        height: 53
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e2e4cbaea61c8320800000000000000
-      internalID: 2561447227528897249
+      spriteID: 3867253603e850410800000000000000
+      internalID: 1442715594118035075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite(Running_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dee5f6a3fdfd330800000000000000
+      internalID: 3737951657810390374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite(Running_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336bf4f507951f0c0800000000000000
+      internalID: -4543752209869851085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite(Running_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e869e6218ecb31ea0800000000000000
+      internalID: -5903166981624916338
       vertices: []
       indices: 
       edges: []
@@ -125,7 +206,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bad15174e445ca34288ce1f46933f5b1
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +216,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerV_0: 2561447227528897249
+      PlayerSprite(Running_0: 1442715594118035075
+      PlayerSprite(Running_1: 540808295908896375
+      PlayerSprite(Running_2: 3737951657810390374
+      PlayerSprite(Running_3: -4543752209869851085
+      PlayerSprite(Running_4: 7491550246863949336
+      PlayerSprite(Running_5: -5903166981624916338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
