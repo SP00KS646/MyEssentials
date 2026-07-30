@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 68eef57e5b856424facbb2624169d8b3
+guid: a8aaf47e34403ed4b8717489b76b7be4
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,7 +81,7 @@ ScriptedImporter:
     mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
-    generateAnimationClips: 0
+    generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
     generateIndividualEvents: 1
@@ -96,13 +96,13 @@ ScriptedImporter:
     mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
-    generateAnimationClips: 0
+    generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639161924345599954
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Chest_Closed
+  - name: Venus_Respawn_Totem
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.41666666, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 64
-      height: 64
-    spriteID: 2ac4bc416beddda4d87f0cddb3fd58b0
+      width: 36
+      height: 60
+    spriteID: 2fdb2bc1d1f039a49b765692bc8ec94b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,57 +153,33 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 3674077696
+      value0: 3653892318
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Chest_Closed
+    name: Venus_Respawn_Totem
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Chest_Closed
+    - name: Venus_Respawn_Totem
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
+        x: 17
         y: 0
-        width: 64
-        height: 64
-      spriteId: 2ac4bc416beddda4d87f0cddb3fd58b0
+        width: 36
+        height: 60
+      spriteId: 2fdb2bc1d1f039a49b765692bc8ec94b
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
   tileSets: []
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}
-  previousTextureSize: {x: 128, y: 128}
+  previousTextureSize: {x: 64, y: 128}
