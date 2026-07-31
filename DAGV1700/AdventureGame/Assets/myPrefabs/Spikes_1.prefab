@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6723963429988506304, guid: 4297ded626d97c34faecf515e7f0e298, type: 3}
+  m_Sprite: {fileID: 1178171791935701470, guid: 8cffae5c7913ef341baea1e028ecccf8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -109,8 +109,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.6399999, y: 0.3, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.31, y: 0.24, z: 0.2}
+  m_Center: {x: 0.000000049670536, y: 0.09, z: 0}
 --- !u!114 &1609632458387417844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,9 +141,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
-        m_MethodName: UpdateWithFloatData
+      - m_Target: {fileID: 6927850971112833674}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -153,9 +153,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 6927850971112833674}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
+        m_MethodName: UpdateWithFloatData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
